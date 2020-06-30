@@ -1,0 +1,41 @@
+body{
+    background-color: #f8f9fa;
+}
+
+nav .whats{
+    width: 25px; 
+    height: 25px; 
+}
+
+#menu{
+    margin-top: 76px;
+
+}
+
+
+/*Rodape*/
+footer{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #dfdfdf;
+}
+
+footer a{
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+footer .active{
+    font-weight: bolder;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+footer .logo{
+    width: 25px;
+    height: 25px;
+}

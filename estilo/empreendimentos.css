@@ -1,0 +1,110 @@
+
+
+#empreendimento{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+#empreendimento .empreendimento_logo{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+
+#empreendimento h1{
+   font-size: 20pt;
+}
+
+#empreendimento h3{
+   margin: 10px;
+}
+#empreendimento h5{
+   color: #6b6b6b;
+   
+}
+
+#empreendimento .icone{
+   margin-top: 30px;
+   width: 35x;
+   height: 35px;
+}
+
+#sliderfurquim{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #71a387;
+}
+
+#slideratrios{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #8a754a;
+}
+
+#slidercoimbra{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #191f72;
+}
+
+.slider{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.legenda{
+   padding-top: 15px;
+   padding-bottom: 15px;
+   background-color: rgba(0, 0, 0, 0.7);  
+}
+
+.legenda h5{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.botao{
+   width: 60px;
+   height: 60px;
+   background-color: black;
+}
+
+
+#descricao{
+   margin-bottom: 20px;
+}
+
+#descricao h2{
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+
+.descricao h5{
+   text-align: left;
+}
+
+.descricao p{
+   margin-bottom: 20px;
+   text-align: left;
+}
+
+.interesse h5{
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+
+#localizacao {
+   margin-top:30px;
+   background-color: rgb(251, 255, 212);
+}
+
+#localizacao h2{
+   padding-bottom: 10px;
+   padding-top: 20px;
+}
+#localizacao h3{
+   font-size: 15pt;
+   color: #6b6b6b;;
+   padding-bottom: 20px;
+}

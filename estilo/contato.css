@@ -1,0 +1,38 @@
+
+#contato h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contato h4{
+    padding-bottom: 15px;
+}
+
+#contato h5{
+    font-weight: normal;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.sociais p{
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sociais .logo{
+    width: 25px;
+    height: 25px;
+}
+.sociais a{
+    color: black;
+    
+}
+.sociais a:hover{
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+}
+
+.formulario textarea{
+    height: 150px;
+}

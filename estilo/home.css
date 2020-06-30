@@ -1,0 +1,106 @@
+
+/* Call */
+#call{
+    margin-top: 59px;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    background: url("../images/slider/slider.png") no-repeat center center fixed;
+    background-size: cover;
+}
+#call .fundo-text{
+    padding: 20px 10px 20px 10px;
+    display: block;
+    border-radius: 10px;
+}
+#call .slider{
+    padding-top: 10rem;
+    position: static;
+    width: 70vw;
+    height: 600px;
+}
+#call .slider h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;    
+}
+#call .slider h2 {
+    color: rgb(233, 225, 225);
+    font-size: 25px;
+}
+#call .slider button{
+    margin-top: 10px;
+}
+
+/*Cooperativa*/
+#cooperativa{
+    padding-bottom: 30px;
+}
+
+#cooperativa h1{
+    padding-top: 5rem;
+    padding-bottom: 30px;
+    color: black;
+}
+
+#cooperativa p{
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+}
+
+#cooperativa .botao{
+    padding-top: 10px 10px 10px 10px;
+}
+
+#cooperativa .texto-coop{
+    padding-bottom: 10px;
+}
+
+#cooperativa .video{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* Lista de Preferencia */
+#cadastro{
+    padding-top: 60px;
+    background: url("../images/slider/slider2.png") no-repeat center center fixed;
+    background-size: cover;
+}
+#cadastro label{
+    font-size: 20px;
+    font-weight: bold;
+}
+#cadastro p {
+    font-size: 20px;
+}
+#cadastro .texto{
+    padding-bottom: 30px;
+}
+
+#cadastro .formulario{
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+#cadastro .negrito{
+    font-weight: bolder;
+}
+
+
+/*Empreendimentos*/
+#empreendimentos{
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 30px;
+}
+.cards{
+    padding-top: 30px;
+}
+
+
+#alpha{
+    padding-top:50px;
+    padding-bottom:30px;
+    background: url("../images/slider/slider.png") no-repeat center center fixed;
+    background-size: cover;
+}
