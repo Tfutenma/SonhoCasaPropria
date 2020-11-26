@@ -40,11 +40,11 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-roxo fixed-top linha">
         <div class="container">
             <!--Logo-->
             <a class="navbar-brand logo" href="index.html" rel='external nofollow'>
-                <img src="images/logo/logotipo.png" alt="Sonho da casa Própria - Logo">
+                <img src="images/logo/logotipo_wt.png" alt="Sonho da casa Própria - Logo">
             </a>
             <!--Whats-->
 
@@ -69,7 +69,7 @@
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Empreendimentos
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu bg-roxo dropdown-roxo" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="furquim.html">Reserva do Furquim<span
                                     class="sr-only">(current)</span></a>
                             <a class="dropdown-item" href="atrios.html">Átrios Granja Viana</a>
@@ -97,24 +97,25 @@
                 <div class="col-md-8">
                     <img class="empreendimento_logo" src="images/empreendimentos/furquim/furquim.png" alt="Furquim">
                     <h1>Reserva do Furquim</h1>
+                    <span class="badge badge-sobre texto-centralizado">OBRAS EM ANDAMENTO!</span>
                     <h5>Localização: Km 37 da Raposo Tavares, sentido São Paulo.</h5>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-6 col-sm-2">
-                    <img class="icone" src="images/icones/area.png" alt="area">
+                    <img class="icone" src="images/icones/area_wt.png" alt="area">
                     <h5>64m²</h5>
                 </div>
                 <div class="col-6 col-sm-2">
-                    <img class="icone" src="images/icones/cama.png" alt="cama">
+                    <img class="icone" src="images/icones/cama_wt.png" alt="cama">
                     <h5>2 Quartos</h5>
                 </div>
                 <div class="col-6 col-sm-2">
-                    <img class="icone" src="images/icones/chuveiro.png" alt="chuveiro">
+                    <img class="icone" src="images/icones/chuveiro_wt.png" alt="chuveiro">
                     <h5>1 Banheiro</h5>
                 </div>
                 <div class="col-6 col-sm-2">
-                    <img class="icone" src="images/icones/garagem.png" alt="garagem">
+                    <img class="icone" src="images/icones/garagem_wt.png" alt="garagem">
                     <h5>1 Vaga</h5>
                 </div>
             </div>
@@ -212,13 +213,43 @@
         </div>
     </div>
 
+    <div class="container d-flex flex-column text-center">
+        <div id="areas-lazer" class="">
+            <h2><span class="badge badge-dark texto-centralizado">Áreas de Lazer</span></h2>
+            <ul class="lista-areas">
+                <li>
+                    <span><img class="icones-lazer" src="images/icones/piscina_wt.png"></span>
+                    <p class="texto-centralizado">Piscina Adulto e Infantil</p>
+                </li>
+                <li>
+                    <span><img class="icones-lazer" src="images/icones/playgorund_wt.png"></span>
+                    <span class="texto-centralizado">Playground</span>
+                </li>
+                <li>
+                    <span><img class="icones-lazer" src="images/icones/salao_wt.png"></span>
+                    <span class="texto-centralizado">Salão de Festas</span>
+                </li>
+                <li>
+                    <span><img class="icones-lazer" src="images/icones/caminhada_wt.png"></span>
+                    <span class="texto-centralizado">Pista de Caminhada</span>
+                </li>
+                <li>
+                    <span><img class="icones-lazer" src="images/icones/academia_wt.png"></span>
+                    <span class="texto-centralizado">Academia</span>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
 
 
     <div id="descricao">
         <div class="container text-center">
             <div class="row descricao justify-content-center">
-                <div class="container col-md-6  descricao">
-                    <h2><span class="badge badge-dark">Descrição</span></h2>
+                <div id="texto" class="container col-md-6  descricao">
+                    <h2><span class="badge badge-light">Descrição</span></h2>
                     <h5>Localização:</h5>
                     <p>Km37 da Raposo Tavares, sentido São Paulo.</p>
                     <h5>Área:</h5>
@@ -234,7 +265,7 @@
                         Caminhada e Academia.</p>
                 </div>
 
-                <div class="col-md-6 interesse">
+                <div id="formulario-empreendimento" class="col-md-6 interesse">
                     <h2><span class="badge badge-dark">Tenho Interesse neste imóvel</span></h2>
                     <form action="cadastro.php" method="post" class="container">
                         <input type="hidden" id="assunto" name="assunto" value="Interesse na Reserva do Furquim">
@@ -273,6 +304,14 @@
             width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
             tabindex="0"></iframe>
     </div>
+
+    <a href="">
+        <div id="whats-pop"
+            onclick="window.open('https:/api.whatsapp.com/send?l=pt_BR&phone=55011986953915', '_blank')">
+            <img class="whats" src="images/sociais/whatsapp.webp" alt="Whatsapp"> (11)
+            98695-3915
+        </div>
+    </a>
 
 
 

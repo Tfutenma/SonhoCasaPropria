@@ -1,41 +1,178 @@
-body{
-    background-color: #f8f9fa;
+body {
+    background-color: #fefefe;
 }
 
-nav .whats{
-    width: 25px; 
-    height: 25px; 
+nav .whats {
+    width: 25px;
+    height: 25px;
 }
 
-#menu{
+.linha {
+
+    border-bottom: 1px solid #fefefe;
+}
+
+#menu {
     margin-top: 76px;
+}
 
+.bg-roxo {
+    background-color: #7d2799 !important
+}
+
+.dropdown-roxo {
+    color: #fff;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #7d2799;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #c26cdf;
+}
+
+.dropdown-item.disabled,
+.dropdown-item:disabled {
+    color: #6c757d;
+    background-color: transparent;
+}
+
+a.bg-roxo:focus,
+a.bg-roxo:hover,
+button.bg-roxo:focus,
+button.bg-roxo:hover {
+    background-color: #dae0e5 !important
 }
 
 
 /*Rodape*/
-footer{
+footer {
     padding-top: 20px;
     padding-bottom: 5px;
-    background-color: #dfdfdf;
+    background-color: #7d2799;
+    color: #FFF;
 }
 
-footer a{
-    color: black;
-    padding-right: 10px;
-    padding-left: 10px;
+footer a {
+    color: white;
+    padding: 10px;
     margin-bottom: 30px;
 }
 
-footer .active{
+footer .active {
     font-weight: bolder;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: none;
+    color: #7d2799;
+    background-color: #fff;
+    border-radius: 30px;
 }
 
-footer .logo{
+footer .logo {
     width: 25px;
     height: 25px;
+}
+
+#whats-pop {
+    background-color: #01b437;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1030;
+    padding: 20px;
+    border-radius: 50px;
+    border: 3px solid white;
+    color: #fff;
+    font-weight: 500;
+}
+
+#whats-pop:hover {
+    text-decoration: none;
+    background-color: #147700;
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #9f37c2;
+    border-color: #9e31c2;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #6e118d;
+    border-color: #760f99;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(225, 0, 255, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #bf00ff;
+    border-color: #67008a;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #8000aa;
+    border-color: #74009b;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(162, 0, 255, 0.5);
+}
+
+.badge-dark {
+    color: #fff;
+    background-color: #67008a;
+}
+
+.badge-dark[href]:hover,
+.badge-dark[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1d2124;
+}
+
+.badge-light {
+    color: #67008a;
+    background-color: #fff;
+}
+
+.badge-sobre {
+    color: #fff;
+    background-color: #639106;
+    font-size: 24px;
+    margin: 20px;
 }

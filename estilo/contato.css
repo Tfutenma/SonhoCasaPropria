@@ -1,38 +1,59 @@
+#contato {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
-#contato h1{
-    padding-top: 30px;
+#contato h1 {
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
-#contato h4{
+#contato h4 {
+    padding-top: 30px;
     padding-bottom: 15px;
 }
 
-#contato h5{
+#contato h5 {
     font-weight: normal;
-    padding: 10px;
+    padding: 30px;
     padding-bottom: 20px;
 }
 
-.sociais p{
+#form {
+    padding: 30px;
+    border: 1px solid #74009b;
+}
+
+.sociais {
+    background-color: #74009b;
+    padding: 30px;
+    color: #fff;
+}
+
+.sociais p {
     text-align: justify;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.sociais .logo{
+.sociais .logo {
     width: 25px;
     height: 25px;
 }
-.sociais a{
-    color: black;
-    
-}
-.sociais a:hover{
-    text-decoration: none;
-    color: rgb(167, 167, 167);
+
+.sociais a {
+    color: #fff;
+    padding: 10px;
+
 }
 
-.formulario textarea{
+.sociais a:hover {
+    text-decoration: none;
+    color: #74009b;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.formulario textarea {
     height: 150px;
 }
