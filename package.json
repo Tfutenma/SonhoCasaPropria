@@ -1,0 +1,28 @@
+{
+  "name": "sonhocasapropria_novo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "gulp-sass": "^4.1.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tfutenma/SonhoCasaPropria.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tfutenma/SonhoCasaPropria/issues"
+  },
+  "homepage": "https://github.com/Tfutenma/SonhoCasaPropria#readme"
+}
