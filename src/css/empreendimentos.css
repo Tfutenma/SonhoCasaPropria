@@ -72,15 +72,19 @@
 
 #areas-lazer {
    margin: 40px 0;
-   padding: 20px;
+   padding-right: 50px;
    border: 1px solid #74009b;
 }
 
 #areas-lazer li {
    width: 100px;
-   margin: 15px;
+   margin: 10px;
    text-align: center;
    font-weight: 600;
+}
+
+.titulo {
+   margin: 20px;
 }
 
 .lista-areas {
@@ -152,4 +156,9 @@
    font-size: 15pt;
    color: #000;
    padding-bottom: 20px;
+}
+
+.badge-branco2 {
+   color: #67008a;
+   background-color: #fff;
 }

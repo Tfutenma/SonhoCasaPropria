@@ -1,0 +1,63 @@
+nav .whats {
+      width: 25px;
+      height: 25px;
+}
+
+.linha {
+      border-bottom: 1px solid #fefefe;
+}
+
+#menu {
+      margin-top: 76px;
+}
+
+
+#whats-pop {
+      background-color: #01b437;
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      z-index: 1030;
+      padding: 20px;
+      border-radius: 50px;
+      border: 3px solid white;
+      color: #fff;
+      font-weight: 500;
+}
+
+#whats-pop:hover {
+      text-decoration: none;
+      background-color: #147700;
+}
+
+
+
+/*Rodape*/
+footer {
+      padding-top: 20px;
+      padding-bottom: 5px;
+      background-color: #7d2799;
+      color: #FFF;
+}
+
+footer a {
+      color: white;
+      padding: 10px;
+      margin-bottom: 30px;
+}
+
+footer .active {
+      font-weight: bolder;
+}
+
+footer a:hover {
+      text-decoration: none;
+      color: #7d2799;
+      background-color: #fff;
+      border-radius: 30px;
+}
+
+footer .logo {
+      width: 25px;
+      height: 25px;
+}

@@ -1,0 +1,31 @@
+//Cria as cores
+$roxo: #7d2799;
+$cor2:#E9DAA1;
+$cor3: #639106;
+$fundo: #fefefe;
+
+$theme-colors:("roxo": $roxo,
+      "cor2": $cor2,
+      "verde": $cor3,
+      "fundo": $fundo,
+      "branco": white);
+
+//fundo
+$body-bg: $fundo;
+
+//dropdown menu
+$dropdown-link-hover-color: $roxo;
+$dropdown-link-color: white;
+$dropdown-link-active-color: #000;
+$dropdown-link-active-bg: $cor2;
+
+//card
+$card-bg: $cor2;
+
+//badges
+
+$badge-font-size: 25px;
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";

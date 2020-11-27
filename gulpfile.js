@@ -7,8 +7,12 @@ gulp.task('sass', function () {
             .pipe(gulp.dest('src/css'));
 });
 
+// gulp.task('watch', function () {
+//       gulp.watch(['node_modules/bootstrap/scss/*.scss', 'src/scss/*.scss'], [], ['sass']);
+// });
+
 gulp.task('watch', function () {
-      gulp.watch(['node_modules/bootstrap/scss/*.scss', 'src/scss/*.scss']);
+      gulp.watch(['node_modules/bootstrap/scss/*.scss', 'src/scss/*.scss'], gulp.series('sass'));
 });
 
-gulp.task('default', ['sass', 'watch']);
+gulp.task('default', gulp.series('sass', 'watch'));
