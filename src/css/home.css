@@ -1,17 +1,22 @@
 /* Call */
 #call {
-    margin-top: 59px;
+    margin-top: 75px;
     width: 100%;
     height: 600px;
     background-color: black;
-    background: url("../images/slider/slider.png") no-repeat center center fixed;
+    background: url("../images/slider/slider1.png") no-repeat center fixed;
     background-size: cover;
 }
 
-#call .fundo-text {
+#call .text {
     padding: 20px 10px 20px 10px;
     display: block;
     border-radius: 10px;
+
+}
+
+#call .fundo-text {
+    text-shadow: 2px 2px 2px #000;
 }
 
 #call .slider {
@@ -23,12 +28,13 @@
 
 #call .slider h1 {
     text-align: center;
-    font-size: 30px;
-    color: white;
+    color: #fff;
+
 }
 
-#call .slider h2 {
-    color: rgb(233, 225, 225);
+#call .slider p {
+    color: #fff;
+    font-weight: 500;
     font-size: 25px;
 }
 
@@ -40,19 +46,31 @@
 
 
 /*Cooperativa*/
+
 #cooperativa {
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 #cooperativa h1 {
-    padding-top: 5rem;
-    padding-bottom: 30px;
+    margin-bottom: 40px;
     color: black;
 }
 
-#cooperativa p {
-    font-size: 20px;
-    color: rgb(29, 29, 29);
+#cooperativa .texto {
+    padding: 30px;
+    background-color: #74009b;
+    color: white;
+}
+
+#cooperativa .video {
+    border: 1px solid #74009b;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #cooperativa .botao {
@@ -60,20 +78,27 @@
 }
 
 #cooperativa .texto-coop {
-    padding-bottom: 10px;
+    text-align: justify;
 }
 
-#cooperativa .video {
-    padding-top: 30px;
-    padding-bottom: 30px;
+
+#cooperativa a {
+    margin: 30px;
+
 }
 
 
 /* Lista de Preferencia */
 #cadastro {
-    padding-top: 60px;
-    background: url("../images/slider/slider2.png") no-repeat center center fixed;
-    background-size: cover;
+    /*background: url("../images/slider/slider2.png") no-repeat center center fixed;
+    background-size: cover;*/
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+#cadastro h1 {
+    margin-bottom: 40px;
 }
 
 #cadastro label {
@@ -81,17 +106,15 @@
     font-weight: bold;
 }
 
-#cadastro p {
-    font-size: 20px;
-}
-
 #cadastro .texto {
-    padding-bottom: 30px;
+    padding: 30px;
+    border: 1px solid #74009b;
 }
 
 #cadastro .formulario {
-    margin-top: 20px;
-    padding-bottom: 30px;
+    background-color: #74009b;
+    color: #fff;
+    padding: 30px;
 }
 
 #cadastro .negrito {
@@ -101,11 +124,26 @@
 
 /*Empreendimentos*/
 #empreendimentos {
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #74009b;
 }
 
-.cards {
-    padding-top: 30px;
+#empreendimentos .badge-white {
+    background-color: #fff;
+    color: #74009b;
+}
+
+#empreendimentos h1 {
+    margin-bottom: 40px;
+}
+
+#empreendimentos h2 {
+    font-size: 23px;
+}
+
+#empreendimentos p {
+    font-size: 16px;
 }
 
 .card {
@@ -122,25 +160,28 @@
     border-radius: 0.25rem;
 }
 
-.alert-success {
-    color: #7d2799;
-    background-color: #fff;
-    border-color: #7d2799;
-}
-
-
 #alpha {
     padding-top: 50px;
     padding-bottom: 30px;
-    background: url("../images/slider/slider.png") no-repeat center center fixed;
-    background-size: cover;
+    /*background: url("../images/slider/slider.png") no-repeat center center fixed;
+    background-size: cover;*/
+    background-color: #fff;
 }
 
 
 .jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #fefefe;
+    padding: 1rem 1rem;
+    margin: 1rem;
+    background-color: #fefefec0;
     border-radius: 0.3rem;
     color: black;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+.jumbotron h1 {
+    font-size: 30px;
+    font-weight: 600;
 }

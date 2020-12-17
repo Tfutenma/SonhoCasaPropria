@@ -8,14 +8,13 @@
     padding-bottom: 30px;
 }
 
-#contato h4 {
+#contato h2 {
     padding-top: 30px;
     padding-bottom: 15px;
 }
 
-#contato h5 {
+#contato p {
     font-weight: normal;
-    padding: 30px;
     padding-bottom: 20px;
 }
 

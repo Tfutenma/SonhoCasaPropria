@@ -1,3 +1,17 @@
+h1 {
+   font-size: 30px;
+}
+
+h2 {
+   font-size: 18px;
+   text-align: justify;
+   margin: 0;
+}
+
+p {
+   margin-top: 0;
+}
+
 #empreendimento {
    padding-top: 20px;
    padding-bottom: 20px;
@@ -9,17 +23,9 @@
    border-radius: 50%;
 }
 
-#empreendimento h1 {
-   font-size: 20pt;
-}
-
-#empreendimento h3 {
-   margin: 10px;
-}
-
-#empreendimento h5 {
+#empreendimento p {
    color: #6b6b6b;
-
+   font-weight: 600;
 }
 
 #empreendimento .icone {
@@ -30,19 +36,7 @@
    border-radius: 5px;
 }
 
-#sliderfurquim {
-   padding-top: 10px;
-   padding-bottom: 10px;
-   background-color: #E9DAA1;
-}
-
-#slideratrios {
-   padding-top: 10px;
-   padding-bottom: 10px;
-   background-color: #E9DAA1;
-}
-
-#slidercoimbra {
+#slider {
    padding-top: 10px;
    padding-bottom: 10px;
    background-color: #E9DAA1;
@@ -53,21 +47,29 @@
    margin-bottom: 30px;
 }
 
-.legenda {
-   padding-top: 15px;
-   padding-bottom: 15px;
-   background-color: rgba(0, 0, 0, 0.7);
-}
 
-.legenda h5 {
+.legenda p {
+   font-weight: bold;
+   font-size: 25px;
    padding-top: 10px;
    padding-bottom: 10px;
+   text-shadow: 2px 2px 3px black;
 }
 
 .botao {
    width: 60px;
    height: 60px;
    background-color: black;
+}
+
+
+#video {
+   padding: 50px;
+}
+
+#video .conteudo {
+   padding: 40px;
+   background-color: #74009b;
 }
 
 #areas-lazer {
@@ -116,11 +118,6 @@
 
 #descricao h2 {
    margin-top: 20px;
-   margin-bottom: 30px;
-}
-
-.descricao h5 {
-   text-align: left;
 }
 
 .descricao p {
@@ -139,7 +136,7 @@
    padding: 30px;
 }
 
-.interesse h5 {
+.interesse p {
    text-align: center;
    padding-bottom: 20px;
 }
@@ -150,12 +147,12 @@
    background-color: #E9DAA1;
 }
 
-#localizacao h2 {
+#localizacao h1 {
    padding-bottom: 10px;
    padding-top: 20px;
 }
 
-#localizacao h3 {
+#localizacao p {
    font-size: 15pt;
    color: #000;
    padding-bottom: 20px;
