@@ -64,13 +64,14 @@ p {
 
 
 #video {
-   padding: 50px;
+   padding: 10px;
 }
 
 #video .conteudo {
-   padding: 40px;
+   padding: 10px;
    background-color: #74009b;
 }
+
 
 #areas-lazer {
    margin: 40px 0;
